@@ -7,7 +7,7 @@ public class Validação {
         while (nota<0 || nota>10){
             System.out.println("Valor invalido !!!! Digite novamente !!!!");
             System.out.println("Digite um valor entre 0 e 10 !!!");
-            nota = sc.nextInt();
+             nota = sc.nextInt();
         }
         sc.close();
     }
